@@ -1,0 +1,55 @@
+
+2017-05-18 22:17:56 127.0.0.1
+Table 'eshop.wa_app_settings' doesn't exist
+## D:\OpenServer\domains\eshop\wa-system\database\waDbMysqliAdapter.class.php(280)
+#0 D:\OpenServer\domains\eshop\wa-system\database\waDbMysqliAdapter.class.php(156): waDbMysqliAdapter->exception()
+#1 D:\OpenServer\domains\eshop\wa-system\database\waModel.class.php(171): waDbMysqliAdapter->schema('wa_app_settings', false)
+#2 D:\OpenServer\domains\eshop\wa-system\database\waModel.class.php(127): waModel->describe()
+#3 D:\OpenServer\domains\eshop\wa-system\database\waModel.class.php(97): waModel->getFields()
+#4 D:\OpenServer\domains\eshop\wa-system\database\waModel.class.php(77): waModel->getMetadata()
+#5 D:\OpenServer\domains\eshop\wa-system\contact\waContact.class.php(63): waModel->__construct()
+#6 D:\OpenServer\domains\eshop\wa-system\user\waUser.class.php(22): waContact->init()
+#7 D:\OpenServer\domains\eshop\wa-system\user\waAuthUser.class.php(34): waUser->init()
+#8 D:\OpenServer\domains\eshop\wa-system\user\waAuthUser.class.php(28): waAuthUser->init()
+#9 D:\OpenServer\domains\eshop\wa-system\waSystem.class.php(238): waAuthUser->__construct(NULL, Array)
+#10 D:\OpenServer\domains\eshop\wa-system\waSystem.class.php(279): waSystem::getCommonFactory('auth_user', 'waAuthUser', Array, NULL)
+#11 D:\OpenServer\domains\eshop\wa-system\waSystem.class.php(516): waSystem->getUser()
+#12 D:\OpenServer\domains\eshop\wa-system\waSystem.class.php(483): waSystem->dispatchBackend('webasyst/')
+#13 D:\OpenServer\domains\eshop\index.php(7): waSystem->dispatch()
+#14 {main}
+
+2017-05-18 22:17:56 127.0.0.1
+Table 'eshop.wa_app_settings' doesn't exist
+## D:\OpenServer\domains\eshop\wa-system\database\waDbMysqliAdapter.class.php(280)
+#0 D:\OpenServer\domains\eshop\wa-system\database\waDbMysqliAdapter.class.php(156): waDbMysqliAdapter->exception()
+#1 D:\OpenServer\domains\eshop\wa-system\database\waModel.class.php(171): waDbMysqliAdapter->schema('wa_app_settings', false)
+#2 D:\OpenServer\domains\eshop\wa-system\database\waModel.class.php(127): waModel->describe()
+#3 D:\OpenServer\domains\eshop\wa-system\database\waModel.class.php(97): waModel->getFields()
+#4 D:\OpenServer\domains\eshop\wa-system\database\waModel.class.php(77): waModel->getMetadata()
+#5 D:\OpenServer\domains\eshop\wa-system\auth\waAuth.class.php(43): waModel->__construct()
+#6 D:\OpenServer\domains\eshop\wa-system\waSystem.class.php(213): waAuth->__construct(Array)
+#7 D:\OpenServer\domains\eshop\wa-system\waSystem.class.php(380): waSystem->getFactory('auth', 'waAuth', Array)
+#8 D:\OpenServer\domains\eshop\wa-system\user\waAuthUser.class.php(45): waSystem->getAuth()
+#9 D:\OpenServer\domains\eshop\wa-system\user\waAuthUser.class.php(28): waAuthUser->init()
+#10 D:\OpenServer\domains\eshop\wa-system\waSystem.class.php(238): waAuthUser->__construct(NULL, Array)
+#11 D:\OpenServer\domains\eshop\wa-system\waSystem.class.php(279): waSystem::getCommonFactory('auth_user', 'waAuthUser', Array, NULL)
+#12 D:\OpenServer\domains\eshop\wa-system\waSystem.class.php(516): waSystem->getUser()
+#13 D:\OpenServer\domains\eshop\wa-system\waSystem.class.php(483): waSystem->dispatchBackend('webasyst/')
+#14 D:\OpenServer\domains\eshop\index.php(7): waSystem->dispatch()
+#15 {main}
+
+2017-05-18 22:17:56 127.0.0.1
+Table 'eshop.wa_app_settings' doesn't exist
+## D:\OpenServer\domains\eshop\wa-system\database\waDbMysqliAdapter.class.php(280)
+#0 D:\OpenServer\domains\eshop\wa-system\database\waDbMysqliAdapter.class.php(156): waDbMysqliAdapter->exception()
+#1 D:\OpenServer\domains\eshop\wa-system\database\waModel.class.php(171): waDbMysqliAdapter->schema('wa_app_settings', false)
+#2 D:\OpenServer\domains\eshop\wa-system\database\waModel.class.php(127): waModel->describe()
+#3 D:\OpenServer\domains\eshop\wa-system\database\waModel.class.php(97): waModel->getFields()
+#4 D:\OpenServer\domains\eshop\wa-system\database\waModel.class.php(77): waModel->getMetadata()
+#5 D:\OpenServer\domains\eshop\wa-system\config\waAppConfig.class.php(266): waModel->__construct()
+#6 D:\OpenServer\domains\eshop\wa-system\waSystem.class.php(94): waAppConfig->checkUpdates()
+#7 D:\OpenServer\domains\eshop\wa-system\waSystem.class.php(1634): waSystem::getInstance('webasyst', Object(webasystConfig), 1)
+#8 D:\OpenServer\domains\eshop\wa-system\waSystem.class.php(517): wa('webasyst', 1)
+#9 D:\OpenServer\domains\eshop\wa-system\waSystem.class.php(483): waSystem->dispatchBackend('webasyst/')
+#10 D:\OpenServer\domains\eshop\index.php(7): waSystem->dispatch()
+#11 {main}
