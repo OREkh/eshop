@@ -53,3 +53,113 @@ Table 'eshop.wa_app_settings' doesn't exist
 #9 D:\OpenServer\domains\eshop\wa-system\waSystem.class.php(483): waSystem->dispatchBackend('webasyst/')
 #10 D:\OpenServer\domains\eshop\index.php(7): waSystem->dispatch()
 #11 {main}
+
+2017-05-19 00:03:27 127.0.0.1
+Unknown database 'eshop'
+## C:\OpenServer\domains\eshop\wa-system\database\waDbMysqliAdapter.class.php(33)
+#0 C:\OpenServer\domains\eshop\wa-system\database\waDbAdapter.class.php(30): waDbMysqliAdapter->connect(Array)
+#1 C:\OpenServer\domains\eshop\wa-system\database\waDbConnector.class.php(49): waDbAdapter->__construct(Array)
+#2 C:\OpenServer\domains\eshop\wa-system\database\waModel.class.php(75): waDbConnector::getConnection('default', false)
+#3 C:\OpenServer\domains\eshop\wa-system\contact\waContact.class.php(63): waModel->__construct()
+#4 C:\OpenServer\domains\eshop\wa-system\user\waUser.class.php(22): waContact->init()
+#5 C:\OpenServer\domains\eshop\wa-system\user\waAuthUser.class.php(34): waUser->init()
+#6 C:\OpenServer\domains\eshop\wa-system\user\waAuthUser.class.php(28): waAuthUser->init()
+#7 C:\OpenServer\domains\eshop\wa-system\waSystem.class.php(238): waAuthUser->__construct(NULL, Array)
+#8 C:\OpenServer\domains\eshop\wa-system\waSystem.class.php(279): waSystem::getCommonFactory('auth_user', 'waAuthUser', Array, NULL)
+#9 C:\OpenServer\domains\eshop\wa-system\waSystem.class.php(942): waSystem->getUser()
+#10 C:\OpenServer\domains\eshop\wa-system\waSystem.class.php(1097): waSystem->getApps()
+#11 C:\OpenServer\domains\eshop\wa-system\routing\waRouting.class.php(197): waSystem->appExists('site')
+#12 C:\OpenServer\domains\eshop\wa-system\waSystem.class.php(624): waRouting->dispatch()
+#13 C:\OpenServer\domains\eshop\wa-system\waSystem.class.php(485): waSystem->dispatchFrontend(false)
+#14 C:\OpenServer\domains\eshop\index.php(7): waSystem->dispatch()
+#15 {main}
+
+2017-05-19 00:03:28 127.0.0.1
+Unknown database 'eshop'
+## C:\OpenServer\domains\eshop\wa-system\database\waDbMysqliAdapter.class.php(33)
+#0 C:\OpenServer\domains\eshop\wa-system\database\waDbAdapter.class.php(30): waDbMysqliAdapter->connect(Array)
+#1 C:\OpenServer\domains\eshop\wa-system\database\waDbConnector.class.php(49): waDbAdapter->__construct(Array)
+#2 C:\OpenServer\domains\eshop\wa-system\database\waModel.class.php(75): waDbConnector::getConnection('default', false)
+#3 C:\OpenServer\domains\eshop\wa-system\config\waAppConfig.class.php(266): waModel->__construct()
+#4 C:\OpenServer\domains\eshop\wa-system\waSystem.class.php(94): waAppConfig->checkUpdates()
+#5 C:\OpenServer\domains\eshop\wa-system\routing\waRouting.class.php(288): waSystem::getInstance('site', NULL, true)
+#6 C:\OpenServer\domains\eshop\wa-system\routing\waRouting.class.php(213): waRouting->getAppRoutes('site', Array, true)
+#7 C:\OpenServer\domains\eshop\wa-system\waSystem.class.php(624): waRouting->dispatch()
+#8 C:\OpenServer\domains\eshop\wa-system\waSystem.class.php(485): waSystem->dispatchFrontend(false)
+#9 C:\OpenServer\domains\eshop\index.php(7): waSystem->dispatch()
+#10 {main}
+
+2017-05-19 00:05:25 127.0.0.1
+Unknown database 'eshop'
+## C:\OpenServer\domains\eshop\wa-system\database\waDbMysqliAdapter.class.php(33)
+#0 C:\OpenServer\domains\eshop\wa-system\database\waDbAdapter.class.php(30): waDbMysqliAdapter->connect(Array)
+#1 C:\OpenServer\domains\eshop\wa-system\database\waDbConnector.class.php(49): waDbAdapter->__construct(Array)
+#2 C:\OpenServer\domains\eshop\wa-system\database\waModel.class.php(75): waDbConnector::getConnection('default', false)
+#3 C:\OpenServer\domains\eshop\wa-system\contact\waContact.class.php(63): waModel->__construct()
+#4 C:\OpenServer\domains\eshop\wa-system\user\waUser.class.php(22): waContact->init()
+#5 C:\OpenServer\domains\eshop\wa-system\user\waAuthUser.class.php(34): waUser->init()
+#6 C:\OpenServer\domains\eshop\wa-system\user\waAuthUser.class.php(28): waAuthUser->init()
+#7 C:\OpenServer\domains\eshop\wa-system\waSystem.class.php(238): waAuthUser->__construct(NULL, Array)
+#8 C:\OpenServer\domains\eshop\wa-system\waSystem.class.php(279): waSystem::getCommonFactory('auth_user', 'waAuthUser', Array, NULL)
+#9 C:\OpenServer\domains\eshop\wa-system\waSystem.class.php(942): waSystem->getUser()
+#10 C:\OpenServer\domains\eshop\wa-system\waSystem.class.php(1097): waSystem->getApps()
+#11 C:\OpenServer\domains\eshop\wa-system\routing\waRouting.class.php(197): waSystem->appExists('site')
+#12 C:\OpenServer\domains\eshop\wa-system\waSystem.class.php(624): waRouting->dispatch()
+#13 C:\OpenServer\domains\eshop\wa-system\waSystem.class.php(485): waSystem->dispatchFrontend(false)
+#14 C:\OpenServer\domains\eshop\index.php(7): waSystem->dispatch()
+#15 {main}
+
+2017-05-19 00:05:25 127.0.0.1
+Unknown database 'eshop'
+## C:\OpenServer\domains\eshop\wa-system\database\waDbMysqliAdapter.class.php(33)
+#0 C:\OpenServer\domains\eshop\wa-system\database\waDbAdapter.class.php(30): waDbMysqliAdapter->connect(Array)
+#1 C:\OpenServer\domains\eshop\wa-system\database\waDbConnector.class.php(49): waDbAdapter->__construct(Array)
+#2 C:\OpenServer\domains\eshop\wa-system\database\waModel.class.php(75): waDbConnector::getConnection('default', false)
+#3 C:\OpenServer\domains\eshop\wa-system\config\waAppConfig.class.php(266): waModel->__construct()
+#4 C:\OpenServer\domains\eshop\wa-system\waSystem.class.php(94): waAppConfig->checkUpdates()
+#5 C:\OpenServer\domains\eshop\wa-system\routing\waRouting.class.php(288): waSystem::getInstance('site', NULL, true)
+#6 C:\OpenServer\domains\eshop\wa-system\routing\waRouting.class.php(213): waRouting->getAppRoutes('site', Array, true)
+#7 C:\OpenServer\domains\eshop\wa-system\waSystem.class.php(624): waRouting->dispatch()
+#8 C:\OpenServer\domains\eshop\wa-system\waSystem.class.php(485): waSystem->dispatchFrontend(false)
+#9 C:\OpenServer\domains\eshop\index.php(7): waSystem->dispatch()
+#10 {main}
+
+2017-05-19 00:12:03 127.0.0.1
+Query Error 1146: Table 'eshop.site_domain' doesn't exist
+Query: SELECT * FROM site_domain WHERE `name` = 'eshop' LIMIT 1
+## C:\OpenServer\domains\eshop\wa-system\database\waModel.class.php(243)
+#0 C:\OpenServer\domains\eshop\wa-system\database\waModel.class.php(343): waModel->run('SELECT * FROM s...')
+#1 C:\OpenServer\domains\eshop\wa-system\database\waModel.class.php(842): waModel->query('SELECT * FROM s...')
+#2 C:\OpenServer\domains\eshop\wa-apps\site\lib\models\siteDomain.model.php(9): waModel->getByField('name', 'eshop')
+#3 C:\OpenServer\domains\eshop\wa-apps\site\lib\classes\siteFrontend.class.php(57): siteDomainModel->getByName('eshop')
+#4 C:\OpenServer\domains\eshop\wa-apps\site\lib\classes\siteFrontend.class.php(16): siteFrontend->getDomainId()
+#5 C:\OpenServer\domains\eshop\wa-apps\site\lib\actions\frontend\siteFrontend.controller.php(19): siteFrontend->getPage('')
+#6 C:\OpenServer\domains\eshop\wa-system\controller\waController.class.php(21): siteFrontendController->execute()
+#7 C:\OpenServer\domains\eshop\wa-system\controller\waViewController.class.php(46): waController->run(NULL)
+#8 C:\OpenServer\domains\eshop\wa-system\controller\waFrontController.class.php(229): waViewController->run(NULL)
+#9 C:\OpenServer\domains\eshop\wa-system\controller\waFrontController.class.php(164): waFrontController->runController(Object(siteFrontendController), NULL)
+#10 C:\OpenServer\domains\eshop\wa-system\controller\waFrontController.class.php(58): waFrontController->execute(NULL, 'frontend', NULL)
+#11 C:\OpenServer\domains\eshop\wa-system\waSystem.class.php(690): waFrontController->dispatch()
+#12 C:\OpenServer\domains\eshop\wa-system\waSystem.class.php(485): waSystem->dispatchFrontend(false)
+#13 C:\OpenServer\domains\eshop\index.php(7): waSystem->dispatch()
+#14 {main}
+
+2017-05-19 00:12:05 127.0.0.1
+Query Error 1146: Table 'eshop.site_domain' doesn't exist
+Query: SELECT * FROM site_domain WHERE `name` = 'eshop' LIMIT 1
+## C:\OpenServer\domains\eshop\wa-system\database\waModel.class.php(243)
+#0 C:\OpenServer\domains\eshop\wa-system\database\waModel.class.php(343): waModel->run('SELECT * FROM s...')
+#1 C:\OpenServer\domains\eshop\wa-system\database\waModel.class.php(842): waModel->query('SELECT * FROM s...')
+#2 C:\OpenServer\domains\eshop\wa-apps\site\lib\models\siteDomain.model.php(9): waModel->getByField('name', 'eshop')
+#3 C:\OpenServer\domains\eshop\wa-apps\site\lib\classes\siteFrontend.class.php(57): siteDomainModel->getByName('eshop')
+#4 C:\OpenServer\domains\eshop\wa-apps\site\lib\classes\siteFrontend.class.php(16): siteFrontend->getDomainId()
+#5 C:\OpenServer\domains\eshop\wa-apps\site\lib\actions\frontend\siteFrontend.controller.php(19): siteFrontend->getPage('')
+#6 C:\OpenServer\domains\eshop\wa-system\controller\waController.class.php(21): siteFrontendController->execute()
+#7 C:\OpenServer\domains\eshop\wa-system\controller\waViewController.class.php(46): waController->run(NULL)
+#8 C:\OpenServer\domains\eshop\wa-system\controller\waFrontController.class.php(229): waViewController->run(NULL)
+#9 C:\OpenServer\domains\eshop\wa-system\controller\waFrontController.class.php(164): waFrontController->runController(Object(siteFrontendController), NULL)
+#10 C:\OpenServer\domains\eshop\wa-system\controller\waFrontController.class.php(58): waFrontController->execute(NULL, 'frontend', NULL)
+#11 C:\OpenServer\domains\eshop\wa-system\waSystem.class.php(690): waFrontController->dispatch()
+#12 C:\OpenServer\domains\eshop\wa-system\waSystem.class.php(485): waSystem->dispatchFrontend(false)
+#13 C:\OpenServer\domains\eshop\index.php(7): waSystem->dispatch()
+#14 {main}
